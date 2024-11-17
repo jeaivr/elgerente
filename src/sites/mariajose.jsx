@@ -1,4 +1,3 @@
-import { useLocation } from "react-router-dom";
 import mariajoseImg from "../img/mariajose.jpg"
 
 export function MariaJose() {
