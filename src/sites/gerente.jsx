@@ -8,7 +8,7 @@ export function Gerente() {
     <>
       <center>
         <h1>El gerente es {string}</h1>
-        <img src={gerenteImg} style = {{height:"95vh"}} alt="El Gerente"/>
+        <img src={gerenteImg} style = {{height:"50vh"}} alt="El Gerente"/>
       </center>
     </>
   );
