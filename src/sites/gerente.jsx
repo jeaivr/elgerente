@@ -3,7 +3,7 @@ import gerenteImg from "../img/gerente2.jpg"
 
 export function Gerente() {
   const location = useLocation();
-  let string = location.pathname.substring(1).replace("/", " y ");
+  let string = location.pathname.substring(1).replace(/\//g, " y ");
   return (
     <>
       <center>
